@@ -19,6 +19,18 @@
 		29050D95190FF0FB00A2DF70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29050D7D190FF0FB00A2DF70 /* UIKit.framework */; };
 		29050D9D190FF0FB00A2DF70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29050D9B190FF0FB00A2DF70 /* InfoPlist.strings */; };
 		29050D9F190FF0FB00A2DF70 /* RateTheCourseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050D9E190FF0FB00A2DF70 /* RateTheCourseTests.m */; };
+		29050DAF1910216F00A2DF70 /* MTFSessionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050DAE1910216F00A2DF70 /* MTFSessionsTableViewController.m */; };
+		29050DB2191021CA00A2DF70 /* MTFSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050DB1191021CA00A2DF70 /* MTFSession.m */; };
+		29050DB5191021EC00A2DF70 /* MTFSessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050DB4191021EC00A2DF70 /* MTFSessionStore.m */; };
+		29050DB9191030CA00A2DF70 /* MTFSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050DB7191030CA00A2DF70 /* MTFSessionViewController.m */; };
+		29050DBA191030CA00A2DF70 /* MTFSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29050DB8191030CA00A2DF70 /* MTFSessionViewController.xib */; };
+		29050DBE191047C900A2DF70 /* MTFPollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050DBC191047C900A2DF70 /* MTFPollViewController.m */; };
+		29050DBF191047C900A2DF70 /* MTFPollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29050DBD191047C900A2DF70 /* MTFPollViewController.xib */; };
+		292C2D0119116F2800FED2AF /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = 292C2D0019116F2800FED2AF /* iPhoneIcon_Big.png */; };
+		292C2D04191170C000FED2AF /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 292C2D02191170C000FED2AF /* Icon-76.png */; };
+		292C2D05191170C000FED2AF /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292C2D03191170C000FED2AF /* Icon-76@2x.png */; };
+		298B3CFF191B009000F4D3A9 /* MTFSuggestionEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298B3CFD191B009000F4D3A9 /* MTFSuggestionEntryViewController.m */; };
+		298B3D00191B009000F4D3A9 /* MTFSuggestionEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298B3CFE191B009000F4D3A9 /* MTFSuggestionEntryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,24 @@
 		29050D9A190FF0FB00A2DF70 /* RateTheCourseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RateTheCourseTests-Info.plist"; sourceTree = "<group>"; };
 		29050D9C190FF0FB00A2DF70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29050D9E190FF0FB00A2DF70 /* RateTheCourseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateTheCourseTests.m; sourceTree = "<group>"; };
+		29050DAD1910216F00A2DF70 /* MTFSessionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFSessionsTableViewController.h; sourceTree = "<group>"; };
+		29050DAE1910216F00A2DF70 /* MTFSessionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFSessionsTableViewController.m; sourceTree = "<group>"; };
+		29050DB0191021CA00A2DF70 /* MTFSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFSession.h; sourceTree = "<group>"; };
+		29050DB1191021CA00A2DF70 /* MTFSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFSession.m; sourceTree = "<group>"; };
+		29050DB3191021EC00A2DF70 /* MTFSessionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFSessionStore.h; sourceTree = "<group>"; };
+		29050DB4191021EC00A2DF70 /* MTFSessionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFSessionStore.m; sourceTree = "<group>"; };
+		29050DB6191030CA00A2DF70 /* MTFSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFSessionViewController.h; sourceTree = "<group>"; };
+		29050DB7191030CA00A2DF70 /* MTFSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFSessionViewController.m; sourceTree = "<group>"; };
+		29050DB8191030CA00A2DF70 /* MTFSessionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTFSessionViewController.xib; sourceTree = "<group>"; };
+		29050DBB191047C900A2DF70 /* MTFPollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFPollViewController.h; sourceTree = "<group>"; };
+		29050DBC191047C900A2DF70 /* MTFPollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFPollViewController.m; sourceTree = "<group>"; };
+		29050DBD191047C900A2DF70 /* MTFPollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTFPollViewController.xib; sourceTree = "<group>"; };
+		292C2D0019116F2800FED2AF /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Big.png; sourceTree = "<group>"; };
+		292C2D02191170C000FED2AF /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		292C2D03191170C000FED2AF /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		298B3CFC191B009000F4D3A9 /* MTFSuggestionEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFSuggestionEntryViewController.h; sourceTree = "<group>"; };
+		298B3CFD191B009000F4D3A9 /* MTFSuggestionEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFSuggestionEntryViewController.m; sourceTree = "<group>"; };
+		298B3CFE191B009000F4D3A9 /* MTFSuggestionEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTFSuggestionEntryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +139,25 @@
 			children = (
 				29050D88190FF0FB00A2DF70 /* MTFAppDelegate.h */,
 				29050D89190FF0FB00A2DF70 /* MTFAppDelegate.m */,
+				29050DAD1910216F00A2DF70 /* MTFSessionsTableViewController.h */,
+				29050DAE1910216F00A2DF70 /* MTFSessionsTableViewController.m */,
+				29050DB3191021EC00A2DF70 /* MTFSessionStore.h */,
+				29050DB4191021EC00A2DF70 /* MTFSessionStore.m */,
+				29050DB0191021CA00A2DF70 /* MTFSession.h */,
+				29050DB1191021CA00A2DF70 /* MTFSession.m */,
+				29050DBB191047C900A2DF70 /* MTFPollViewController.h */,
+				29050DBC191047C900A2DF70 /* MTFPollViewController.m */,
+				29050DBD191047C900A2DF70 /* MTFPollViewController.xib */,
+				29050DB6191030CA00A2DF70 /* MTFSessionViewController.h */,
+				29050DB7191030CA00A2DF70 /* MTFSessionViewController.m */,
+				29050DB8191030CA00A2DF70 /* MTFSessionViewController.xib */,
+				298B3CFC191B009000F4D3A9 /* MTFSuggestionEntryViewController.h */,
+				298B3CFD191B009000F4D3A9 /* MTFSuggestionEntryViewController.m */,
+				298B3CFE191B009000F4D3A9 /* MTFSuggestionEntryViewController.xib */,
 				29050D8B190FF0FB00A2DF70 /* Images.xcassets */,
+				292C2D02191170C000FED2AF /* Icon-76.png */,
+				292C2D03191170C000FED2AF /* Icon-76@2x.png */,
+				292C2D0019116F2800FED2AF /* iPhoneIcon_Big.png */,
 				29050D80190FF0FB00A2DF70 /* Supporting Files */,
 			);
 			path = RateTheCourse;
@@ -192,6 +240,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = matthewfjerstad;
 				TargetAttributes = {
+					29050D75190FF0FB00A2DF70 = {
+						DevelopmentTeam = XQ4Y63A3FH;
+					};
 					29050D90190FF0FB00A2DF70 = {
 						TestTargetID = 29050D75190FF0FB00A2DF70;
 					};
@@ -220,8 +271,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292C2D0119116F2800FED2AF /* iPhoneIcon_Big.png in Resources */,
 				29050D84190FF0FB00A2DF70 /* InfoPlist.strings in Resources */,
+				29050DBF191047C900A2DF70 /* MTFPollViewController.xib in Resources */,
+				292C2D04191170C000FED2AF /* Icon-76.png in Resources */,
 				29050D8C190FF0FB00A2DF70 /* Images.xcassets in Resources */,
+				298B3D00191B009000F4D3A9 /* MTFSuggestionEntryViewController.xib in Resources */,
+				292C2D05191170C000FED2AF /* Icon-76@2x.png in Resources */,
+				29050DBA191030CA00A2DF70 /* MTFSessionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29050DAF1910216F00A2DF70 /* MTFSessionsTableViewController.m in Sources */,
+				298B3CFF191B009000F4D3A9 /* MTFSuggestionEntryViewController.m in Sources */,
+				29050DB9191030CA00A2DF70 /* MTFSessionViewController.m in Sources */,
+				29050DB5191021EC00A2DF70 /* MTFSessionStore.m in Sources */,
 				29050D8A190FF0FB00A2DF70 /* MTFAppDelegate.m in Sources */,
 				29050D86190FF0FB00A2DF70 /* main.m in Sources */,
+				29050DB2191021CA00A2DF70 /* MTFSession.m in Sources */,
+				29050DBE191047C900A2DF70 /* MTFPollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +423,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RateTheCourse/RateTheCourse-Prefix.pch";
 				INFOPLIST_FILE = "RateTheCourse/RateTheCourse-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +439,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RateTheCourse/RateTheCourse-Prefix.pch";
 				INFOPLIST_FILE = "RateTheCourse/RateTheCourse-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,6 +509,7 @@
 				29050DA4190FF0FB00A2DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29050DA5190FF0FB00A2DF70 /* Build configuration list for PBXNativeTarget "RateTheCourseTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +518,7 @@
 				29050DA7190FF0FB00A2DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
